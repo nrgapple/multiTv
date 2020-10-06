@@ -1,0 +1,30 @@
+{
+  "name": "MultiTv",
+  "version": "0.1.0",
+  "description": "MultiTv application build with Electron",
+  "author": {
+    "name": "Adam",
+    "email": ""
+  },
+  "repository": {},
+  "dependencies": {
+    "electron-widevinecdm": "./electron-widevinecdm"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "bozon": "1.1.1",
+    "electron": "git+https://github.com/castlabs/electron-releases.git#v6.0.0-wvvmp",
+    "jest": "26.5.0",
+    "spectron": "12.0.0"
+  },
+  "build": {
+    "appId": "com.electron.multi-tv",
+    "win": {
+      "publish": null
+    },
+    "mac": {
+      "publish": null,
+      "category": "your.app.category.type"
+    }
+  }
+}
