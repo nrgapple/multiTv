@@ -1,6 +1,6 @@
 # MultiTv
 
-> My MultiTv app built with Electron
+Display multiple youtube tvs on one window
 
 
 ## Dev
@@ -12,13 +12,13 @@ $ npm install
 ### Run
 
 ```
-$ bozon start
+$ npx bozon start
 ```
 
 ### Package
 
 ```
-$ bozon package
+$ npx bozon package
 ```
 
 Builds the app for OS X, Linux, and Windows, using [electron-builder](https://github.com/electron-userland/electron-builder).
